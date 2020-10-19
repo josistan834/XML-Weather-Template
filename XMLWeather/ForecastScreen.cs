@@ -43,6 +43,11 @@ namespace XMLWeather
                 {
                     d.icon = Properties.Resources.snowIco;
                 }
+                else if (Convert.ToInt16(d.condition) > 800)
+                {
+                    d.icon = Properties.Resources.cloudIco;
+
+                }
                 else
                 {
                     d.icon = Properties.Resources.sunIco;
@@ -56,6 +61,11 @@ namespace XMLWeather
             else if (Convert.ToInt16(Form1.days[1].condition) < 700)
             {
                 this.BackgroundImage = Properties.Resources.snowy;
+            }
+            else if (Convert.ToInt16(Form1.days[1].condition) > 800)
+            {
+                this.BackgroundImage = Properties.Resources.cloudy__2_;
+            
             }
             else
             {

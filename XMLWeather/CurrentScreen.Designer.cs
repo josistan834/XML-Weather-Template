@@ -46,12 +46,12 @@
             // 
             // cityOutput
             // 
-            this.cityOutput.BackColor = System.Drawing.Color.Transparent;
+            this.cityOutput.BackColor = System.Drawing.Color.DimGray;
             this.cityOutput.Font = new System.Drawing.Font("UD Digi Kyokasho NK-R", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.cityOutput.ForeColor = System.Drawing.Color.White;
-            this.cityOutput.Location = new System.Drawing.Point(60, 0);
+            this.cityOutput.Location = new System.Drawing.Point(0, 0);
             this.cityOutput.Name = "cityOutput";
-            this.cityOutput.Size = new System.Drawing.Size(171, 36);
+            this.cityOutput.Size = new System.Drawing.Size(287, 36);
             this.cityOutput.TabIndex = 22;
             this.cityOutput.Text = "City";
             this.cityOutput.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -84,7 +84,7 @@
             // 
             this.forecastLabel.BackColor = System.Drawing.Color.Transparent;
             this.forecastLabel.Font = new System.Drawing.Font("UD Digi Kyokasho NP-R", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.forecastLabel.ForeColor = System.Drawing.Color.DarkOrange;
+            this.forecastLabel.ForeColor = System.Drawing.Color.Orange;
             this.forecastLabel.Location = new System.Drawing.Point(68, 438);
             this.forecastLabel.Name = "forecastLabel";
             this.forecastLabel.Size = new System.Drawing.Size(136, 15);

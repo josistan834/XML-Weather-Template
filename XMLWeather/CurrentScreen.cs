@@ -35,6 +35,11 @@ namespace XMLWeather
             {
                 this.BackgroundImage = Properties.Resources.snowy;
             }
+            else if (Convert.ToInt16(Form1.days[0].condition) > 800)
+            {
+                this.BackgroundImage = Properties.Resources.cloudy__2_;
+
+            }
             else
             {
                 this.BackgroundImage = Properties.Resources.sunny;

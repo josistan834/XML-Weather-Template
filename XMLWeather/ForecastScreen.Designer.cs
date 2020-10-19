@@ -61,7 +61,7 @@
             // 
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("UD Digi Kyokasho NP-R", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label3.ForeColor = System.Drawing.Color.DarkOrange;
+            this.label3.ForeColor = System.Drawing.Color.Orange;
             this.label3.Location = new System.Drawing.Point(68, 438);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(163, 21);
@@ -72,12 +72,12 @@
             // 
             // cityOutput
             // 
-            this.cityOutput.BackColor = System.Drawing.Color.Transparent;
+            this.cityOutput.BackColor = System.Drawing.Color.DimGray;
             this.cityOutput.Font = new System.Drawing.Font("UD Digi Kyokasho NK-R", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.cityOutput.ForeColor = System.Drawing.Color.White;
-            this.cityOutput.Location = new System.Drawing.Point(60, 0);
+            this.cityOutput.Location = new System.Drawing.Point(0, 0);
             this.cityOutput.Name = "cityOutput";
-            this.cityOutput.Size = new System.Drawing.Size(171, 36);
+            this.cityOutput.Size = new System.Drawing.Size(289, 36);
             this.cityOutput.TabIndex = 62;
             this.cityOutput.Text = "City";
             this.cityOutput.TextAlign = System.Drawing.ContentAlignment.TopCenter;
